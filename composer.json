@@ -1,0 +1,43 @@
+{
+	"name": "simonmarcellinden/ldap",
+	"description": "Efficient LDAP auth for Laravel/Lumen. Easy integration, secure, lightweight.",
+	"license": "MIT",
+	"authors": [
+		{
+			"role": "Developer",
+			"name": "Simon Marcel Linden",
+			"email": "info@snerve.de",
+			"homepage": "https://github.com/simonmarcellinden/"
+		}
+	],
+	"homepage": "https://github.com/simonmarcellinden/ldap",
+	"keywords": [
+		"Laravel",
+		"Lumen",
+		"LDAP",
+		"JWT",
+		"Authentification"
+	],
+	"require": {
+		"firebase/php-jwt": "^6.10"
+	},
+	"require-dev": {
+		"simonmarcellinden/jwt": "dev-main"
+	},
+	"autoload": {
+		"psr-4": {
+			"SimonMarcelLinden\\LDAP\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Simonmarcellinden\\LDAP\\Tests\\": "test"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": []
+		}
+	},
+	"minimum-stability": "dev"
+}
